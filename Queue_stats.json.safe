@@ -1,0 +1,105 @@
+{
+	"memory": 13920,
+	"message_stats": {
+		"deliver_get": 17,
+		"deliver_get_details": {
+			"rate": 0.0
+		},
+		"deliver_no_ack": 17,
+		"deliver_no_ack_details": {
+			"rate": 0.0
+		},
+		"publish": 17,
+		"publish_details": {
+			"rate": 0.0
+		}
+	},
+	"messages": 0,
+	"messages_details": {
+		"rate": 0.0
+	},
+	"messages_ready": 0,
+	"messages_ready_details": {
+		"rate": 0.0
+	},
+	"messages_unacknowledged": 0,
+	"messages_unacknowledged_details": {
+		"rate": 0.0
+	},
+	"idle_since": "2016-09-02 1:42:24",
+	"policy": "",
+	"exclusive_consumer_tag": "",
+	"consumers": 1,
+	"backing_queue_status": {
+		"q1": 0,
+		"q2": 0,
+		"delta": ["delta", "undefined", 0, "undefined"],
+		"q3": 0,
+		"q4": 0,
+		"len": 0,
+		"pending_acks": 0,
+		"target_ram_count": "infinity",
+		"ram_msg_count": 0,
+		"ram_ack_count": 0,
+		"next_seq_id": 0,
+		"persistent_count": 0,
+		"avg_ingress_rate": 0.0,
+		"avg_egress_rate": 0.0,
+		"avg_ack_ingress_rate": 0.0,
+		"avg_ack_egress_rate": 0.0
+	},
+	"status": "running",
+	"incoming": [{
+		"stats": {
+			"publish": 17,
+			"publish_details": {
+				"rate": 0.0
+			}
+		},
+		"exchange": {
+			"name": "",
+			"vhost": "vdc062b83bcbc412e946b0f5be889218d"
+		}
+	}],
+	"deliveries": [{
+		"stats": {
+			"deliver_no_ack": 5,
+			"deliver_no_ack_details": {
+				"rate": 0.0
+			},
+			"deliver_get": 5,
+			"deliver_get_details": {
+				"rate": 0.0
+			}
+		},
+		"channel_details": {
+			"name": "172.17.1.20:36371 -> 192.168.52.98:25002 (1)",
+			"number": 1,
+			"connection_name": "172.17.1.20:36371 -> 192.168.52.98:25002",
+			"peer_port": 36371,
+			"peer_host": "172.17.1.20"
+		}
+	}],
+	"consumer_details": [{
+		"channel_details": {
+			"name": "172.17.1.20:36371 -> 192.168.52.98:25002 (1)",
+			"number": 1,
+			"connection_name": "172.17.1.20:36371 -> 192.168.52.98:25002",
+			"peer_port": 36371,
+			"peer_host": "172.17.1.20"
+		},
+		"queue": {
+			"name": "REPORT_DATA_QUEUE",
+			"vhost": "vdc062b83bcbc412e946b0f5be889218d"
+		},
+		"consumer_tag": "amq.ctag-6QQ9VcBZfOqkCOPz1ti97A",
+		"exclusive": false,
+		"ack_required": false
+	}],
+	"name": "REPORT_DATA_QUEUE",
+	"vhost": "vdc062b83bcbc412e946b0f5be889218d",
+	"durable": false,
+	"auto_delete": false,
+	"arguments": {},
+	"node": "67f4f3a1-c66f-4a3a-9eef-c04a09cb5c7f@localhost"
+}

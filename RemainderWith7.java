@@ -1,0 +1,25 @@
+class RemainderWith7
+{
+    // Complete the function
+    static int remainderWith7(String num)
+    {
+        int rem=0;
+		String n;
+		for(int i=0;i<num.length();i++)
+		{
+			n=String.valueOf(rem)+num.charAt(i);
+			if(n.charAt(0)=='0')
+			{
+				n=n.charAt(1)+"";
+			}
+			int number=Integer.parseInt(n);
+			rem=number%7;
+		}
+		
+        return rem;
+    }
+	public static void main(String args[])
+	{
+		System.out.println(remainderWith7("56495654565052555054535456545355495650575755555757575350505449495254525056535655494951545354515152515050575749545453535549545551575652535149494949515551545554565555575452555157505555574950505649525149505150575254515549565156515750555450545355495355515251495352565452555453515451505251575251494956515352555154505155535151565754505450535753555654575549575349565351575054"));
+	}
+}

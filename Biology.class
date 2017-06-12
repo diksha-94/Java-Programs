@@ -1,0 +1,28 @@
+public class HourGlass
+{
+	public static void main(String args[])
+	{
+		int[6][6] a={{1,1,1,0,0,0},
+					 {0,1,0,0,0,0},
+					 {1,1,1,0,0,0},
+					 {0,0,2,4,4,0},
+					 {0,0,0,2,0,0},
+					 {0,0,1,2,4,0}};
+		for(int i=0;i<=3;i++)
+		{
+			for(int j=0;j<=3;j++)
+			{
+				for(int m=i;m<=i+2;m++)
+				{
+					for(int n=j;n<=j+2;n++)
+					{
+						System.out.print(a[m][n]+"\t");
+					}
+					System.out.println();
+				}
+				System.out.println();
+				System.out.println();
+			}
+		}
+	}
+}
